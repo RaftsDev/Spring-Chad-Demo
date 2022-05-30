@@ -27,7 +27,7 @@ public class HelloWorldController {
 		
 		theName = theName.toUpperCase();
 		
-		String result = "Yo!" + theName;
+		String result = "Yo! " + theName;
 		
 		model.addAttribute("message", result);
 		
