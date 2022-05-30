@@ -3,7 +3,7 @@
 <body>
 <h2>Home page</h2>
 
-<a href="hello/showForm">Hello World form</a>
+<a href="main/showForm">Hello World form</a>
 
 </body>
 </html>
