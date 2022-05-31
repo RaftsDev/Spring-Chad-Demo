@@ -1,27 +1,33 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/for
-
-<html>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <head>
 <title>Customer registration form</title>
+
+<style type="text/css">
+.error {
+	color: red
+}
+</style>
 
 </head>
 <body>
 
-<form:form action="processForm" modelAttribute="customer">
+	<form:form action="processForm" modelAttribute="customer">
 
 First name: <form:input path="firstName" />
 
-<br><br>
+		<br>
+		<br>
 
 Last name(*): <form:input path="lastName" />
-<form:errors path="lastName" cssClass="error"/>
+		<form:errors path="lastName" cssClass="error" />
 
-<br><br>
+		<br>
+		<br>
 
-<input type="submit" value="Submit"/>
+		<input type="submit" value="Submit" />
 
 
-</form:form>
+	</form:form>
 
 </body>
 </html>
