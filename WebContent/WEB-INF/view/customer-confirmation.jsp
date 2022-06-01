@@ -6,13 +6,17 @@
 
 <head>
 
-<title>Ciustomer confirmation</title>
+<title>Customer confirmation</title>
 
 </head>
 
 <body>
 
 The customer is confirmed: ${customer.firstName } ${customer.lastName }  
+
+<br><br>
+
+Free passes: ${customer.freePasses}
 
 </body>
 </html>
